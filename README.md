@@ -1,6 +1,6 @@
 # Local-AI-Pipeline
 Local AI Pipeline with private and secure connection between Desktop to remote phones and laptop.
-The pipeline:
+- The pipeline:
 1.	On a Desktop with 16 GB Vram (AMD GPU) I have LM studio or Lmstudio bionic with Gemma 4 26b a4b qat. It act as a server with exposed api to the local network.
 2.	On a raspberry pi on the local network I have a docker with openweb ui on it that connected to the api.
 3.	For https I have on the raspberry pi a component called caddy.
