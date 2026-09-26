@@ -9,3 +9,4 @@ The pipeline:
 6.	On Android phone I've set inside a secure folder the twingate app, so it won't interfere with the tunneling protocol  I have on the standard profile (Check point harmony mobile MTD).
 7.	I've installed Caddy generated ca cert on the secure folder. I've enable the debug secret menu on Firefox on the secure folder, so I would be able to set firefox to use third party CA certificates. 
 8.	Connecting to Twingate via fingerprint and from there to the https internal site I've set of open webui.
+<img width="1300" height="719" alt="1790438439576" src="https://github.com/user-attachments/assets/a86ca4c4-a6ee-4905-98b2-f4758e221b54" />
