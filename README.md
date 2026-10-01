@@ -7,7 +7,7 @@ Local AI Pipeline with private and secure connection between Desktop to remote p
 4.	The open webui is set to enable web search with a toggle on the chat itself. The interface set to temporary chats without saving chats. The model set to not remember memories or checking older chats.
 5.	On the raspberry pi installed Twingate connector as ZTNA. On twingate I set a resource with specific port and alias for the internal domain name.
 
-#Android setup
+# Android setup
 6.	On Android phone I've set inside a secure folder the twingate app, so it won't interfere with the tunneling protocol  I have on the standard profile (Check point harmony mobile MTD).
 7.	I've installed Caddy generated ca cert on the secure folder. I've enable the debug secret menu on Firefox on the secure folder, so I would be able to set firefox to use third party CA certificates. 
 8.	Connecting to Twingate via fingerprint and from there to the https internal site I've set of open webui.
