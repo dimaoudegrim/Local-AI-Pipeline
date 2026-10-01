@@ -16,7 +16,9 @@ Local AI Pipeline with private and secure connection between Desktop to remote p
 # Integration as chat bot within Firefox (Open webui).
 <img width="2718" height="1468" alt="local ai browser" src="https://github.com/user-attachments/assets/1a17464b-a354-45a9-bc53-8d33a8f32580" />
 Set the following configurations, just adjust URL and queries to your needs:
+
 * Enter about:config
+  
 * browser.ml.chat.provider  = https://example.com:3000/?web-search=true
 * browser.ml.chat.prompts.{0} = true
 * browser.ml.chat.prompts.{1} = true
