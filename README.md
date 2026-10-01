@@ -17,12 +17,12 @@ Local AI Pipeline with private and secure connection between Desktop to remote p
 <img width="2718" height="1468" alt="local ai browser" src="https://github.com/user-attachments/assets/1a17464b-a354-45a9-bc53-8d33a8f32580" />
 Set the following configurations, just adjust URL and queries to your needs:
 * Enter about:config
-- browser.ml.chat.provider  = https://example.com:3000/?web-search=true
-- browser.ml.chat.prompts.{0} = true
-- browser.ml.chat.prompts.{1} = true
-- browser.ml.chat.prompts.{2} = true
-- browser.ml.chat.prompts.{3} = true
-- browser.ml.chat.prompts.0 = {"label": "סיכום בעברית", "value": "Please summarize the content of this page in Hebrew. URL: %url%"}
-- browser.ml.chat.prompts.1 = {"label": "חוות דעת על הדף", "value": ",תן חוות דעת על התוכן כאן. URL: %url%"}
-- browser.ml.chat.prompts.2 = {"label": "תמצית סימון", "value": ",תצמצת לי את התוכן המסומן. Selection: %selection%"}
-- browser.ml.chat.prompts.3 = {"label": "חוות דעת על הסימון", "value": ",תן חוות דעת על התוכן כאן. Selection: %selection%"}
+* browser.ml.chat.provider  = https://example.com:3000/?web-search=true
+* browser.ml.chat.prompts.{0} = true
+* browser.ml.chat.prompts.{1} = true
+* browser.ml.chat.prompts.{2} = true
+* browser.ml.chat.prompts.{3} = true
+* browser.ml.chat.prompts.0 = {"label": "סיכום בעברית", "value": "Please summarize the content of this page in Hebrew. URL: %url%"}
+* browser.ml.chat.prompts.1 = {"label": "חוות דעת על הדף", "value": ",תן חוות דעת על התוכן כאן. URL: %url%"}
+* browser.ml.chat.prompts.2 = {"label": "תמצית סימון", "value": ",תצמצת לי את התוכן המסומן. Selection: %selection%"}
+* browser.ml.chat.prompts.3 = {"label": "חוות דעת על הסימון", "value": ",תן חוות דעת על התוכן כאן. Selection: %selection%"}
