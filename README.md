@@ -2,7 +2,7 @@
 Local AI Pipeline with private and secure connection between Desktop to remote phones and laptop.
 - The pipeline:
 1.	On a Desktop with 16 GB Vram (AMD GPU) I have LM studio or Lmstudio bionic with Gemma 4 26b a4b qat. It act as a server with exposed api to the local network.
-2.	On a raspberry pi on the local network I have a docker with openweb ui on it that connected to the api.
+2.	On a raspberry pi on the local network I have a docker with open webui on it that connected to the api.
 3.	For https I have on the raspberry pi a component called caddy.
 4.	The open webui is set to enable web search with a toggle on the chat itself. The interface set to temporary chats without saving chats. The model set to not remember memories or checking older chats.
 5.	On the raspberry pi installed Twingate connector as ZTNA. On twingate I set a resource with specific port and alias for the internal domain name.
@@ -13,7 +13,7 @@ Local AI Pipeline with private and secure connection between Desktop to remote p
 8.	Connecting to Twingate via fingerprint and from there to the https internal site I've set of open webui.
 <img width="1300" height="719" alt="1790438439576" src="https://github.com/user-attachments/assets/a86ca4c4-a6ee-4905-98b2-f4758e221b54" />
 
-#Integration as chat bot within Firefox
+#Integration as chat bot within Firefox (Open webui).
 <img width="2718" height="1468" alt="local ai browser" src="https://github.com/user-attachments/assets/1a17464b-a354-45a9-bc53-8d33a8f32580" />
 Set the following configurations, just adjust URL and queries to your needs:
 * Enter about:config
