@@ -13,7 +13,7 @@ Local AI Pipeline with private and secure connection between Desktop to remote p
 8.	Connecting to Twingate via fingerprint and from there to the https internal site I've set of open webui.
 <img width="1300" height="719" alt="1790438439576" src="https://github.com/user-attachments/assets/a86ca4c4-a6ee-4905-98b2-f4758e221b54" />
 
-#Integration as chat bot within Firefox (Open webui).
+# Integration as chat bot within Firefox (Open webui).
 <img width="2718" height="1468" alt="local ai browser" src="https://github.com/user-attachments/assets/1a17464b-a354-45a9-bc53-8d33a8f32580" />
 Set the following configurations, just adjust URL and queries to your needs:
 * Enter about:config
